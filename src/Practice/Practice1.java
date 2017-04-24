@@ -52,6 +52,7 @@ public class Practice1 {
             System.out.println(item);
         }
     }
+}
 //    
 //    Address address= new Address("","","","","","","");
 //    address.setAddress1("1234 St ");

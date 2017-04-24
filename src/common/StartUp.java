@@ -26,7 +26,7 @@ public class StartUp {
     Employee e2 =new Employee("Karl", "Smidth", "500-56-0078");
     Employee e3 =new Employee("Emily", "Brown", "500-55-5555");
     Employee e4 =new Employee("Jordan", "MayFlower", "500-09-0990");
-    
+    Employee e5 =new Employee("Veki", "Vulic", "500-00-0000");
     
     
     //Lab #2 – Create a List of Employee objects without using Generics. 
@@ -36,6 +36,7 @@ public class StartUp {
     employeeList.add(e2);
     employeeList.add(e3);
     employeeList.add(e4);
+    employeeList.add(e5);
   
    // String s=(String)employeeList.get(2);
     
