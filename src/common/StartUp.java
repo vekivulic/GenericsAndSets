@@ -51,7 +51,7 @@ public class StartUp {
     genericList.add(e2);
     genericList.add(e3);
     genericList.add(e4);
-        
+    genericList.addAll(genericList);
     for(Employee emp: genericList){
        
         System.out.println(emp);
@@ -81,6 +81,8 @@ public class StartUp {
     for(Dog d: dogSet){
         System.out.println(d);
     }
+    dogList.clear();
+    dogSet.addAll(dogSet);
     }
     
 }
