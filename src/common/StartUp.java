@@ -37,6 +37,8 @@ public class StartUp {
     employeeList.add(e3);
     employeeList.add(e4);
   
+   // String s=(String)employeeList.get(2);
+    
      for(Object e: employeeList){
         Employee emp=(Employee)e;
         System.out.println(emp);
@@ -49,9 +51,9 @@ public class StartUp {
     genericList.add(e3);
     genericList.add(e4);
         
-    for(Employee e: genericList){
+    for(Employee emp: genericList){
        
-        System.out.println(e);
+        System.out.println(emp);
     }
     
     
